@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Card, Button} from 'react-bootstrap';
+import DishDetails from './dishDetailComponent';
 
 class Menu extends Component {
     constructor(props) {
@@ -12,31 +13,21 @@ class Menu extends Component {
     
     onDishSelect(dish){
       this.setState({selectedDish: dish})
-      console.log('selected Dish is ', this.state.selectedDish)
     }
-
 
     renderDish(dish){
-        if(dish!=null){
-          return(
-          <div className='col-5 md-12 m-1'>
-            <Card>
-              <Card.Img width="100%" src={dish.image} alt={dish.name}/>
-              <Card.Body>
-                <Card.Title>{dish.name}
-                </Card.Title>
-                <Card.Text>{dish.description}</Card.Text>
-              </Card.Body>
-            </Card>
-          </div>
-       )}  else{
-          return <div></div>
-        }
-    }
+      if(dish!=null){
+        return(
 
-    
-    
-    
+             <DishDetails
+              selectedDish={this.state.selectedDish}/>
+      
+     )}  else{
+        return <div></div>
+      }
+  }
+
+
 
     render() {
         const menu = this.props.dishes.map((dish) => {
@@ -56,7 +47,7 @@ class Menu extends Component {
         });
 
         return (
-          
+          <div>
           <div className="container">
             <div className="row">
             
@@ -64,14 +55,12 @@ class Menu extends Component {
 
                 
             </div>
+            </div>
 
-            <div className="row">
+        <div className='container'> 
       {this.renderDish(this.state.selectedDish)}
-
-        </div>
-
       </div>
-
+      </div>
         );
     }
   }

@@ -3,7 +3,7 @@ export const DISHES =
         {
         id: 0,
         name:'Uthappizza',
-        image: 'assets/images/uthappizza.png',
+        image: './menu-react/assets/images/uthappizza.png',
         category: 'mains',
         label:'Hot',
         price:'4.99',
@@ -41,14 +41,14 @@ export const DISHES =
             id: 4,
             rating: 2,
             comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
+            author: "Rana Nassar",
             date: "2011-12-02T17:57:28.556094Z"
             }
         ]                        },
         {
         id: 1,
         name:'Zucchipakoda',
-        image: 'assets/images/zucchipakoda.png',
+        image: './menu-react/assets/images/zucchipakoda.png',
         category: 'appetizer',
         label:'',
         price:'1.99',
@@ -57,36 +57,36 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
+            comment: "Great plate.",
+            author: "Jack willson",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
             comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
+            author: "mark pablo",
             date: "2014-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
+            comment: "Eat it, it's wonderful!",
+            author: "Michael ",
             date: "2015-02-13T17:57:28.556094Z"
             },
             {
             id: 3,
             rating: 4,
             comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
+            author: "sue dekinson",
             date: "2013-12-02T17:57:28.556094Z"
             },
             {
             id: 4,
             rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
+            comment: "It's your birthday !",
+            author: "cool guy",
             date: "2011-12-02T17:57:28.556094Z"
             }
         ]
@@ -94,7 +94,7 @@ export const DISHES =
         {
         id: 2,
         name:'Vadonut',
-        image: 'assets/images/vadonut.png',
+        image: './menu-react/assets/images/vadonut.png',
         category: 'appetizer',
         label:'New',
         price:'1.99',
@@ -103,36 +103,36 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
+            comment: "Amazing dessert.",
+            author: "Johny",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
             comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
+            author: "zac evvans",
             date: "2014-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
+            comment: "Impressive!",
+            author: "sam Jaikishan",
             date: "2015-02-13T17:57:28.556094Z"
             },
             {
             id: 3,
             rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
+            comment: "Ultimate joy!",
+            author: "Noah Eden",
             date: "2013-12-02T17:57:28.556094Z"
             },
             {
             id: 4,
             rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
+            comment: "It's your birthday, you should definetly try it!",
+            author: "jemmy carl",
             date: "2011-12-02T17:57:28.556094Z"
             }
         ]
@@ -140,7 +140,7 @@ export const DISHES =
         {
         id: 3,
         name:'ElaiCheese Cake',
-        image: 'assets/images/elaicheesecake.png',
+        image: './menu-react/assets/images/elaicheesecake.png',
         category: 'dessert',
         label:'',
         price:'2.99',
@@ -149,36 +149,36 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
+            comment: "loved it so so much.",
+            author: "suzy mark",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
+            comment: " I wish I could get my mother-in-law to eat it!",
+            author: "Antonella jacob",
             date: "2014-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
+            comment: " just eat it, you won't regret it!",
+            author: "waleed Hassan",
             date: "2015-02-13T17:57:28.556094Z"
             },
             {
             id: 3,
             rating: 4,
             comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
+            author: "Raghda gabr",
             date: "2013-12-02T17:57:28.556094Z"
             },
             {
             id: 4,
             rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
+            comment: " we're gonna party!",
+            author: "shrouk Amr",
             date: "2011-12-02T17:57:28.556094Z"
             }
         ]

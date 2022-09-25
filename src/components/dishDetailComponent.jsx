@@ -6,8 +6,8 @@ class DishDetails extends Component{
     renderComments(){
       const {comments} = this.props.selectedDish;
       return(
-        <div>
-          <div>
+        <div className='col-12 col-md-12'>
+          <Card className='bg-light mt-0 p-2'>
             {comments.map(comment =>(
               <ul className='list-unstyled'>
                 <li key={comment.comment}>
@@ -20,7 +20,7 @@ class DishDetails extends Component{
               </ul>
            
             ))}
-          </div>
+          </Card>
         </div>
       )
       } 
@@ -32,7 +32,7 @@ class DishDetails extends Component{
       <div >
       <div className='row'>
         <div className='col-12 col-md-5 m-1' >
-    <Card>
+    <Card >
       <Card.Img width="100%" src={this.props.selectedDish.image} alt={this.props.selectedDish.name}/>
       <Card.Body>
         <Card.Title>{this.props.selectedDish.name}

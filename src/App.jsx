@@ -1,19 +1,38 @@
 import React, {Component} from "react";
-import Menu from "./components/MenuComponent";
-import {DISHES} from './shared/dishes';
-
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/AboutComponent';
 class App extends Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            dishes: DISHES
-        };
-    }
+  
     render(){
+    let component 
+    switch (window.location.pathname) {
+        case "/":
+            component = <Home/>
+            break;
+            case "/About":
+                component = <About/>
+             break;
+             case "/Contact":
+                 component = <Home/>
+             break;
+    
+        default:
+            component = <Home/>
+            break;
+    }
         return(
-            <div>
-            <Menu dishes={this.state.dishes}/>
+            <div className="bg-dark">
+                <div>
+                    <Header/>
+                    {component}
+                
+                </div>
+                <div>
+              
             </div>
+            </div>
+          
         )
     }
 }
